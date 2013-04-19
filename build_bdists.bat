@@ -6,7 +6,7 @@ psftp.exe -i C:\Users\skipper\ssh\sourceforge.ppk jseabold,statsmodels@web.sourc
 
 rem Change to statsmodels dir update and checkout branch
 chdir /d %STATSMODELSDIR%
-rem git pull --ff-only
+git pull --ff-only
 git checkout %BRANCH%
 git clean -xdf
 
