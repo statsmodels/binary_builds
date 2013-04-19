@@ -1,0 +1,3 @@
+cd htdocs/binaries
+rm ./statsmodels*
+quit
