@@ -1,6 +1,6 @@
-set STATSMODELSDIR=C:\Users\skipper\statsmodels\statsmodels-skipper
+set STATSMODELSDIR=C:\Users\skipper\statsmodels\statsmodels
 set BUILDDIR=C:\Users\skipper\statsmodels\build_scripts
-set BRANCH=fix-build-issues
+set BRANCH=master
 
 psftp.exe -i C:\Users\skipper\ssh\sourceforge.ppk jseabold,statsmodels@web.sourceforge.net -b %BUILDIR%\list_remote_directory.scr > %BUILDDIR%\remote_file_list.out
 
