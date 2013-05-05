@@ -3,7 +3,7 @@ import os
 import re
 import shutil
 
-STATSMODELSDIR = "C:\Users\skipper\statsmodels\statsmodels-skipper"
+STATSMODELSDIR = "C:\Users\skipper\statsmodels\statsmodels"
 
 def git_version():
     def _minimal_ext_cmd(cmd):
